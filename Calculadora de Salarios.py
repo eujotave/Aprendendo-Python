@@ -18,5 +18,5 @@ elif salario > 1500:
     print(f"O salário antes do reajuste era {salario}. Com o reajuste de 5% (ou seja {aumento:.2f}), o salário "
           f"ficou {salario + aumento:.2f}")
 else:
-    print("O colaborar tá desempregado XDD")
+    print("O colaborar tá desempregado XD")
 
