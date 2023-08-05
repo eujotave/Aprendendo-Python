@@ -24,14 +24,14 @@ Em listas, nós podemos utilizar os comandos:
 lista = [1, 2, 3, 4, 4, 5]
 
 lista.append(9)
-print(lista)
+print(lista)  # [1, 2, 3, 4, 4, 5, 9]
 
 # Exemplo .pop
 
 lista = [1, 2, 3, 4, 4, 5]
 
 lista.pop()
-print(lista)
+print(lista)  # [1, 2, 3, 4, 4]
 
 """
 Se percebemos, nós só conseguimos adicionar e remover elementos ao final da lista, o que pode acabar impossibilitando 
@@ -51,7 +51,9 @@ deq = deque("Goiaba")
 
 deq.appendleft("A")
 
-print(deq)  # Perceba que o 'A' foi adicionado ao inicio e não ao fim como normalmente ocorre
+print(deq)  # deque(['A', 'G', 'o', 'i', 'a', 'b', 'a'])
+
+# Perceba que o 'A' foi adicionado ao inicio e não ao fim como normalmente ocorre
 
 # Exemplo .popleft
 
@@ -59,6 +61,8 @@ deq = deque("Goiaba")
 
 deq.popleft()
 
-print(deq)  # Perceba que o primeiro elemento foi removido ao invés do ultimo como normalmente ocorre
+print(deq)  # deque(['o', 'i', 'a', 'b', 'a'])
+
+# Perceba que o primeiro elemento foi removido ao invés do ultimo como normalmente ocorre
 
 
