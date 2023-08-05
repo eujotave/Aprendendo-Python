@@ -18,10 +18,13 @@ print(dicionario['raca']
 print(dicionario[cor]) -> KeyError  //  Já que esta chave é inexistente
 """
 
+# Utilizando o defaultdict
 dicionario = defaultdict(lambda:"Não encontrado")
 
 dicionario['raca'] = 'bulldog'
 dicionario['idade'] = '7'
+
+# Imprimindo os Dados
 
 print(dicionario)
 print(dicionario['cor'])

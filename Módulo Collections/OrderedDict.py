@@ -7,6 +7,8 @@ O OrderedDict serve para garantir a ordem de inserção dos elementos em um dici
 garantida. Ou seja, a partir do momento que este módulo é utilizado, a ordem dos elementos importa.
 """
 
+# Utilizando o OrderedDict e Imprimindo os Dados
+
 # Sem OrderedDict:
 
 dicionario1 = {'a': 1, 'b': 2}
