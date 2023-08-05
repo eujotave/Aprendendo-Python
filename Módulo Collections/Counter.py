@@ -48,4 +48,4 @@ Counter({'vida': 2, 'como': 2, 'uma': 2, 'gota': 2, 'Se': 1, 'olharmos': 1, 'a':
 
 # Também podemos descobrir os elementos mais comuns do iterável/Counter por meio do most_common, podendo ser muito útil
 
-print(contagem2.most_common(3))  # Dentro do parênteses passamos a quantidade de resultados que queremos
+print(contagem2.most_common(3))  # Dentro do parênteses passamos a quantidade de resultados que queremos (nesse caso 3)
